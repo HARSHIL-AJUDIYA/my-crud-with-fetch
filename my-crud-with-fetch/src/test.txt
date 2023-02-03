@@ -1,0 +1,56 @@
+// import JsonData from './db.json';
+
+// Fetching data from API JSON
+//npm install -g json-server
+//   fetchAPI = () => { fetch('http://localhost:2222/employeeData')
+//   .then(response => response.json())
+//   .then(json => {
+//     console.log("123",json);
+//   })
+// }
+
+
+// let [todos, setTodos] = React.useState([]);
+
+// let fetchTodos = async () => {
+//   try {
+//     const response = await fetch(url);
+//     const data = await response.json();
+//     setTodos(data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+       {
+            // JsonData.employeeData.map((emps, index)=> (
+            //   <tr key={index}>
+            //   <td>{emps.name}</td>
+            //   <td>{emps.age}</td>
+            //   <td>
+            //   <button onClick={() => this.handleEdit(index)}>Edit</button>
+            //   </td>
+            //   <td>
+            //   <button onClick={() => this.handleDelete(index)}>Delete</button>
+            //   </td>
+            //   </tr>
+            // ))
+          }
+
+// import React from 'react';
+
+// class myComponent extends React.Component {
+//   componentDidMount() {
+//     const apiUrl = 'https://api.github.com/users/hacktivist123/repos';
+//     fetch(apiUrl)
+//       .then((response) => response.json())
+//       .then((data) => console.log('This is your data', data));
+//   }
+//   render() {
+//     return <h1>my Component has Mounted, Check the browser 'console' </h1>;
+//   }
+// }
+// export default myComponent;
+
+
+https://www.smashingmagazine.com/2020/06/rest-api-react-fetch-axios/
